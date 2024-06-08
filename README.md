@@ -1,4 +1,4 @@
-scratch-gui modified for use in [TurboWarp](https://turbowarp.org/)
+BlockScript GUI, based on TurboWarp's scratch-gui
 
 ## Setup
 
@@ -8,9 +8,9 @@ If you just want to play with the GUI then it's the same process as upstream scr
 
 ## License
 
-TurboWarp's modifications to Scratch are licensed under the GNU General Public License v3.0. See LICENSE or https://www.gnu.org/licenses/ for details.
+BlockScript's modifications to Turbowarp are licensed under the GNU General Public License v3.0. See LICENSE or https://www.gnu.org/licenses/ for details.
 
-The following is the original license for scratch-gui, which we are required to retain. This is NOT the license of this project.
+The following is the original license for Scratch's scratch-gui, which we are required to retain. This is NOT the license of this project.
 
 ```
 Copyright (c) 2016, Massachusetts Institute of Technology
