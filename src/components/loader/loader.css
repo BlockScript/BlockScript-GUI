@@ -191,7 +191,7 @@
     background-color: $ui-white-default;
 }
 
+/* The ONLY reason we are keeping this is so we don't get upstream merge conflicts */
 .pride-month {
-    max-width: 350px;
-    margin-top: 0.75rem;
+    display: none;
 }
