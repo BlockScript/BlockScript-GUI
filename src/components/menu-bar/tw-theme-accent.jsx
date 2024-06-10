@@ -15,7 +15,7 @@ import styles from './settings-menu.css';
 
 const options = defineMessages({
     [ACCENT_PALESTINE]: {
-        defaultMessage: 'Palestine',
+        defaultMessage: 'Palestine (beta)',
         description: 'Name of the watermelon color scheme.',
         id: "tw.accent.palestine"
     },
