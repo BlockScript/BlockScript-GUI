@@ -7,13 +7,18 @@ import {connect} from 'react-redux';
 import check from './check.svg';
 import dropdownCaret from './dropdown-caret.svg';
 import {MenuItem, Submenu} from '../menu/menu.jsx';
-import {ACCENT_MAP, ACCENT_ORANGE, ACCENT_PALESTINE, ACCENT_PURPLE, ACCENT_RED, Theme} from '../../lib/themes/index.js';
+import {ACCENT_MAP, ACCENT_YELLOW, ACCENT_PALESTINE, ACCENT_PURPLE, ACCENT_RED, Theme} from '../../lib/themes/index.js';
 import {openAccentMenu, accentMenuOpen, closeSettingsMenu} from '../../reducers/menus.js';
 import {setTheme} from '../../reducers/theme.js';
 import {persistTheme} from '../../lib/themes/themePersistance.js';
 import styles from './settings-menu.css';
 
 const options = defineMessages({
+    [ACCENT_YELLOW]: {
+        defaultMessage: 'BlockScript',
+        description: 'BlockScript\'s default color scheme.',
+        id: 'tw.accent.orange'
+    },
     [ACCENT_PALESTINE]: {
         defaultMessage: 'Palestine (beta)',
         description: 'Name of the watermelon color scheme.',
