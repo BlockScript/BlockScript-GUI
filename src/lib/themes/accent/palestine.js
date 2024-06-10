@@ -1,5 +1,5 @@
 // TODO: Use flag colors
-import * from './yellow' as yellowTheme;
+import * as yellowTheme from './yellow';
 
 import icon from './palestine-flag.svg';
 import watermelonStrip from './palestine-bg-strip.svg';
