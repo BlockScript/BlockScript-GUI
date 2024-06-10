@@ -7,7 +7,7 @@ import {connect} from 'react-redux';
 import check from './check.svg';
 import dropdownCaret from './dropdown-caret.svg';
 import {MenuItem, Submenu} from '../menu/menu.jsx';
-import {ACCENT_MAP, ACCENT_PALESTINE, ACCENT_PURPLE, ACCENT_RED, Theme} from '../../lib/themes/index.js';
+import {ACCENT_MAP, ACCENT_ORANGE, ACCENT_PALESTINE, ACCENT_PURPLE, ACCENT_RED, Theme} from '../../lib/themes/index.js';
 import {openAccentMenu, accentMenuOpen, closeSettingsMenu} from '../../reducers/menus.js';
 import {setTheme} from '../../reducers/theme.js';
 import {persistTheme} from '../../lib/themes/themePersistance.js';
@@ -40,12 +40,11 @@ const ColorIcon = props => ACCENT_MAP[props.id].icon ? (
         alt=""
     />
 ) : (
+
     <div
         className={styles.accentIconOuter}
         style={{
-            // menu-bar-background is var(...), don't want to evaluate with the current values
-            backgroundColor: ACCENT_MAP[props.id].guiColors['looks-secondary'],
-            backgroundImage: ACCENT_MAP[props.id].guiColors['menu-bar-background-image'],
+            backgroundColor: ACCENT_MAP[props.id].guiColors['looks-secondary']
         }}
     />
 );
