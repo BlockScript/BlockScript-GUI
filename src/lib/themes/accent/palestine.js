@@ -1,5 +1,5 @@
 // TODO: Use flag colors
-import guiColors from './yellow';
+import { guiColors } from './yellow';
 
 import icon from './palestine-flag.svg';
 import watermelonStrip from './palestine-bg-strip.svg';
