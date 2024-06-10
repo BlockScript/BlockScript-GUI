@@ -26,7 +26,7 @@ const projectData = translateFunction => {
             {
                 isStage: true,
                 name: 'Stage',
-                variables:{},
+                variables: {},
                 lists: {},
                 broadcasts: {},
                 blocks: {},
