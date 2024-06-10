@@ -33,6 +33,7 @@ $menu-bar-background-size: auto;
     font-size: $menu-bar-standard-font-size;
     font-weight: bold;
     background-color: $menu-bar-background;
+    background-image: $menu-bar-background-image;
     color: $menu-bar-foreground;
 
     background-repeat: $menu-bar-background-repeat;
