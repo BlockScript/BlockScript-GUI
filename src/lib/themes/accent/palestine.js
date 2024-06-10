@@ -1,5 +1,5 @@
-import icon from './../../../components/menu-bar/palestine-flag.svg';
-import watermelonStrip from './../../../components/menu-bar/palestine-bg-strip.svg';
+import icon from './palestine-flag.svg';
+import watermelonStrip from './palestine-bg-strip.svg';
 
 
 const guiColors = {
