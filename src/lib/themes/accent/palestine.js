@@ -3,7 +3,6 @@ import icon from './palestine-flag.svg';
 import watermelonStrip from './palestine-bg-strip.svg';
 
 guiColors = {
-    ...guiColors,
     /*
     'motion-primary': '#ff4c4c',
     'motion-primary-transparent': '#ff4c4ce6',
