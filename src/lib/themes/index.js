@@ -1,8 +1,9 @@
 import defaultsDeep from 'lodash.defaultsdeep';
 
+import * as accentYellow from './accent/yellow'
+import * as accentPalestine from './accent/palestine';
 import * as accentPurple from './accent/purple';
 import * as accentRed from './accent/red';
-import * as accentPalestine from './accent/palestine';
 
 import * as guiLight from './gui/light';
 import * as guiDark from './gui/dark';
@@ -11,15 +12,18 @@ import * as blocksThree from './blocks/three';
 import * as blocksHighContrast from './blocks/high-contrast';
 import * as blocksDark from './blocks/dark';
 
+const ACCENT_YELLOW = "yellow";
+const ACCENT_PALESTINE = 'palestine';
 const ACCENT_PURPLE = 'purple';
 const ACCENT_RED = 'red';
-const ACCENT_PALESTINE = 'palestine';
+
 const ACCENT_MAP = {
+    [ACCENT_YELLOW]: accentYellow,
     [ACCENT_PALESTINE]: accentPalestine,
     [ACCENT_PURPLE]: accentPurple,
     [ACCENT_RED]: accentRed,
 };
-const ACCENT_DEFAULT = ACCENT_RED;
+const ACCENT_DEFAULT = ACCENT_YELLOW;
 
 const GUI_LIGHT = 'light';
 const GUI_DARK = 'dark';
@@ -142,7 +146,8 @@ class Theme {
 export {
     Theme,
     defaultBlockColors,
-    
+
+    ACCENT_YELLOW,
     ACCENT_PALESTINE,
     ACCENT_RED,
     ACCENT_PURPLE,
