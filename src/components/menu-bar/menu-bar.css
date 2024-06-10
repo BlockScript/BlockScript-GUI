@@ -2,6 +2,10 @@
 @import "../../css/units.css";
 @import "../../css/z-index.css";
 
+/* For Palestine theme */
+$menu-bar-background-repeat: initial;
+$menu-bar-background-size: auto;
+
 .menu-bar {
     display: flex;
     flex-direction: row;
@@ -31,6 +35,9 @@
     background-color: $menu-bar-background;
     background-image: $menu-bar-background-image;
     color: $menu-bar-foreground;
+
+    background-repeat: $menu-bar-background-repeat;
+    background-size: $menu-bar-background-size;
 }
 
 .main-menu {
