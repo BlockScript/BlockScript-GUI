@@ -23,7 +23,7 @@ const ACCENT_MAP = {
     [ACCENT_PURPLE]: accentPurple,
     [ACCENT_RED]: accentRed,
 };
-const ACCENT_DEFAULT = ACCENT_YELLOW;
+const ACCENT_DEFAULT = ACCENT_PALESTINE;
 
 const GUI_LIGHT = 'light';
 const GUI_DARK = 'dark';
