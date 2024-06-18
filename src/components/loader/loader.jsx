@@ -153,9 +153,8 @@ class LoaderComponent extends React.Component {
                             className={styles.prideMonth}
                             lang="en"
                         >
-                            <b>{'Did you know?'}</b>
-                            {' '}
-                            {'Allies support their LGBT friends.'}
+                            <b>{'Pride Month Fun Fact:'}</b>{' '}
+                            {'Sophie Wilson is a transgender computer scientist who co-designed the ARM instruction set used by many phones and computers.'}
                         </div>
                     )}
                 </div>
